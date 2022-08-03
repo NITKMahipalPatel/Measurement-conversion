@@ -1,0 +1,101 @@
+/*general*/
+
+html{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	padding: 0;
+	background: #EEE;
+	font: 18px Georgia, Times, "Times New Roman", Serif;
+	background-image:url(images/homeBG.jpg);
+	background-size:cover;
+}
+
+#main-content{
+	width: 500px;
+	margin: 0 auto; padding: 20px 0;
+}
+
+h1{
+	font: 30px Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+}
+
+/*menu page*/
+
+ul#measurement-types{
+	list-style-type: none;
+	margin: 1em 0;
+	padding: 0;
+}
+
+ul#measurement-types li{
+	height: auto;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+ul#measurement-types li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	background-color: rgba(50,12,30,0.4);
+	padding: 14px 20px;
+	width: 180px;
+	border: 1px solid black;
+	border-radius:25px;
+	text-align:center;
+}
+
+ul#measurement-types li a:hover{
+	color: white;
+	background:green;
+	transform:translateX(-10px);
+}
+
+/*Conversion forms*/
+
+form label{
+	display: inline-block;
+	width: 45px;
+}
+
+form input[type="text"]{
+	width: 80px;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+form select{
+	margin: 1em 0;
+	font-size: 14px;
+}
+
+form input[type="submit"]{
+	font-size: 1em;
+	text-decoration: none;
+	color: black;
+	display: block;
+	background: rgba(1,1,1,0.4);
+	margin: 2em 0 2em 25px;
+	padding: 6px 12px;
+	border: 1px solid black;
+	border-radius:25px;
+	box-shadow:2px 5px rgba(0,0,255,0.5);
+}
+
+form input[type="submit"]:hover{
+	color: white;
+	background: green;
+    
+}
+div#pTitle
+{
+	text-align:center;
+	box-shadow:3px 5px rgba(255,30,60,0.5);
+	background-color:rgba(0,255,0,0.5);
+   border-radius:6px;
+}
